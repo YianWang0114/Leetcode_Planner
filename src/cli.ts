@@ -65,7 +65,7 @@ const llmResponse = await fetch("https://api.fixie.ai/api/v1/agents/lexwang/fixi
    }),
    headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJmaXhpZS5haS9wcm9kIiwiYXVkIjoiaHR0cHM6Ly9maXhpZS5haSIsInN1YiI6IjY1In0.ukPSG7uwW_nXiGiviuuI8A4qwhxrFhGEwAhVokt3L4U',
+      'Authorization': 'Bearer X', /** Replace "x" with you own api key. */
    }
 });
 
